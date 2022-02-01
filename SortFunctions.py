@@ -4,18 +4,17 @@
 # accessed on 01/25/22
 # licensed: none given
 # author: Adnan Aliakbar
+
 ###
 # CHANGELOG:
 # -added if __name__ == "__main__" to driver code
 ###
-# Python3 implementation of QuickSort
-
 
 # Python3 implementation of QuickSort
-
 # This Function handles sorting part of quick sort
 # start and end points to first and last element of
 # an array respectively
+
 def partition(start, end, array):
     # Initializing pivot's index to start
     pivot_index = start
