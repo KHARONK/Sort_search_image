@@ -24,7 +24,6 @@ def main():
         grayscale(im,pixels)
         pixels_to_points(im, sorted_pixels[subi:])
 
-
     # save my image data from memory to a file with a difference
     im.save("neg_" + IMG_NAME, "JPEG")
 
